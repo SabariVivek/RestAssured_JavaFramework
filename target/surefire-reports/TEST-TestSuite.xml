@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.231" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework\target\test-classes;C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework\target\classes;C:\Users\A395643\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\A395643\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\A395643\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\A395643\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\A395643\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\A395643\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\A395643\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\A395643\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\A395643\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\A395643\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\A395643\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\A395643\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\A395643\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\A395643\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\A395643\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\A395643\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\A395643\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://access.redhat.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\A395643\AppData\Local\Temp\surefire7691230425874562484\surefirebooter8333744195728607418.jar C:\Users\A395643\AppData\Local\Temp\surefire7691230425874562484 2023-03-01T11-48-09_635-jvmRun1 surefire2271273290846769669tmp surefire_04705072711363432944tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework\target\test-classes;C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework\target\classes;C:\Users\A395643\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\A395643\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\A395643\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\A395643\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\A395643\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\A395643\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\A395643\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\A395643\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\A395643\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\A395643\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\A395643\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\A395643\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\A395643\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\A395643\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\A395643\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\A395643\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\A395643\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\A395643\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\A395643\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\A395643\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\A395643"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre"/>
+    <property name="basedir" value="C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\A395643\AppData\Local\Temp\surefire7691230425874562484\surefirebooter8333744195728607418.jar;C:\Users\A395643\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\resources.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\rt.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\sunrsasign.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\jsse.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\jce.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\charsets.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\jfr.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_345-b01"/>
+    <property name="user.name" value="a395643"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\A395643\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="java.io.tmpdir" value="C:\Users\A395643\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_345"/>
+    <property name="user.dir" value="C:\Users\A395643\Downloads\MyProject-master\MyProject-master\RestAssured_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\webstart\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.292-1\jre\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.292-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.292-1\webstart\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\jre\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.252-2\webstart\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\JavaDev\tools\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\bin;C:\Users\A395643\scoop\shims;C:\Users\A395643\AppData\Local\Microsoft\WindowsApps;;C:\JavaDev\tools\apache-maven-3.3.9\bin;C:\JavaDev\tools\jvs-support-tools-5.1.0;C:\JavaDev\tools\jboss-eap-7.0\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="25.345-b01"/>
+    <property name="java.ext.dirs" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.345-1\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="createAPlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistsTests" time="2.362">
+    <system-out><![CDATA[<<<<< STARTING TEST : getAPlaylist >>>>>
+<<<<< STARTING TEST : createAPlayListWithoutName >>>>>
+<<<<< STARTING TEST : createAPlaylistWithExpiredToken >>>>>
+<<<<< STARTING TEST : updateAPlaylist >>>>>
+<<<<< THREAD ID : 17 >>>>>
+<<<<< THREAD ID : 18 >>>>>
+<<<<< THREAD ID : 14 >>>>>
+<<<<< STARTING TEST : createAPlaylist >>>>>
+<<<<< THREAD ID : 15 >>>>>
+<<<<< THREAD ID : 16 >>>>>
+Token Expired, Renewing Token...
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQDXyxI2ejGmBIjGTP2F0C-9koOUExNYRapoF5-g0DSbWJIg-zezUcwROIijkTL-ezaniHrn-_EIyPn-eg8F31J_Mr7UYluDw9-FanFDSpFtAiFgGL-__XCwAcMShwgRg24
+				grant_type=refresh_token
+				client_secret=27b04acd1d4742b1949a4bda7639bab9
+				client_id=76ee9599e544413c94e8c457ab875047
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31tp7uytr47zvbfsr3tlvcigt7rq/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"description":"I like to listen Electronic music","name":"janel.thompson","public":false}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 01 Mar 2023 06:18:49 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+HTTP/1.1 200 OK
+date: Wed, 01 Mar 2023 06:18:49 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQAZgVNeCrYZqzF10npYQaFI9-nir6vNQj_954ajHF93rp6kU2wsbZaOV4drFmLGEODhM0yJle3XeUA9hFe8koWEhhG-h-1XD7Q;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: 53bee2b53d6743e5
+content-encoding: gzip
+x-envoy-upstream-service-time: 30
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQBNVFDBRFJNNdQRNB9KUBthxMTvET9nI3UNNiTtMapeBZTHciE5AFbAbvxusKF477gJGB6DkmKFTX7SjVFRkfKINI4zwbFpGQFjseH3tl0pIywTPO56kdCK0Gk97HmHBPfR4mkRVFlxijdNrU6fbg2owuZecwdg_SAx4gugRj3BWnmYSE1UHKLJCDOxIy5TGicVSlGNdkYsHTjnvMsFBxm7NxxekC-M16MioHFHM3Wsm8rRG2D6oDe0DquUd-m1kUCPFUUNry0LEGTh_Q",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createAPlayListWithoutName" classname="com.spotify.oauth2.tests.PlaylistsTests" time="3.414">
+    <system-out><![CDATA[Token is good to use...
+Token is good to use...
+Token is good to use...
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/5wO4smPDpSRYz4QMqVYKOk
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31tp7uytr47zvbfsr3tlvcigt7rq/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"description":"I like to listen Rock music","name":"josh.kuvalis","public":false}
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/6827d1p3ockYO2HrAnM1d5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"description":"I like to listen Soul music","name":"lavelle.cassin","public":false}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31tp7uytr47zvbfsr3tlvcigt7rq/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"description":"I like to listen Blues music","name":"","public":false}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 01 Mar 2023 06:18:50 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistsTests" time="3.475">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjFhOTljNjQ4YjAzNmE4NDA5MjBhMDdkZDRkZGJjNmJhIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 01 Mar 2023 06:18:50 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "I like to listen Country music",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5wO4smPDpSRYz4QMqVYKOk"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/5wO4smPDpSRYz4QMqVYKOk",
+    "id": "5wO4smPDpSRYz4QMqVYKOk",
+    "images": [
+        
+    ],
+    "name": "mercedes.schmidt",
+    "owner": {
+        "display_name": "Sabari Vivek",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31tp7uytr47zvbfsr3tlvcigt7rq"
+        },
+        "href": "https://api.spotify.com/v1/users/31tp7uytr47zvbfsr3tlvcigt7rq",
+        "id": "31tp7uytr47zvbfsr3tlvcigt7rq",
+        "type": "user",
+        "uri": "spotify:user:31tp7uytr47zvbfsr3tlvcigt7rq"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MjIsNjNkOWE0YjRjZGNjOTBjZDIzNDk1MzIxMjI0ZjhjZTM1YjEyYzQ4OQ==",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5wO4smPDpSRYz4QMqVYKOk/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5wO4smPDpSRYz4QMqVYKOk"
+}
+HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 01 Mar 2023 06:18:50 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+  <testcase name="getAPlaylist" classname="com.spotify.oauth2.tests.PlaylistsTests" time="3.49"/>
+  <testcase name="createAPlaylist" classname="com.spotify.oauth2.tests.PlaylistsTests" time="3.623">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/0cgFqmKGIGREnO2wt1Bjkb
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Wed, 01 Mar 2023 06:18:50 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "I like to listen Rock music",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0cgFqmKGIGREnO2wt1Bjkb"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/0cgFqmKGIGREnO2wt1Bjkb",
+    "id": "0cgFqmKGIGREnO2wt1Bjkb",
+    "images": [
+        
+    ],
+    "name": "josh.kuvalis",
+    "owner": {
+        "display_name": "Sabari Vivek",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31tp7uytr47zvbfsr3tlvcigt7rq"
+        },
+        "href": "https://api.spotify.com/v1/users/31tp7uytr47zvbfsr3tlvcigt7rq",
+        "id": "31tp7uytr47zvbfsr3tlvcigt7rq",
+        "type": "user",
+        "uri": "spotify:user:31tp7uytr47zvbfsr3tlvcigt7rq"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSxiMmU5OTdkNDczNjk3ZTgyMzE5YWVmMjI0NzQxM2JjYTEyZTZkYjQ1",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0cgFqmKGIGREnO2wt1Bjkb/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0cgFqmKGIGREnO2wt1Bjkb"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

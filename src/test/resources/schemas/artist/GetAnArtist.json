@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "external_urls",
+    "followers",
+    "genres",
+    "href",
+    "id",
+    "images",
+    "name",
+    "popularity",
+    "type",
+    "uri"
+  ],
+  "properties": {
+    "external_urls": {
+      "type": "object",
+      "default": {},
+      "title": "The external_urls Schema",
+      "required": [
+        "spotify"
+      ],
+      "properties": {
+        "spotify": {
+          "type": "string",
+          "default": "",
+          "title": "The spotify Schema",
+          "examples": [
+            "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg"
+          ]
+        }
+      },
+      "examples": [{
+        "spotify": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg"
+      }]
+    },
+    "followers": {
+      "type": "object",
+      "default": {},
+      "title": "The followers Schema",
+      "required": [
+        "href",
+        "total"
+      ],
+      "properties": {
+        "href": {
+          "type": "null",
+          "default": null,
+          "title": "The href Schema",
+          "examples": [
+            null
+          ]
+        },
+        "total": {
+          "type": "integer",
+          "default": 0,
+          "title": "The total Schema",
+          "examples": [
+            9861743
+          ]
+        }
+      },
+      "examples": [{
+        "href": null,
+        "total": 9861743
+      }]
+    },
+    "genres": {
+      "type": "array",
+      "default": [],
+      "title": "The genres Schema",
+      "items": {
+        "type": "string",
+        "title": "A Schema",
+        "examples": [
+          "dance pop",
+          "miami hip hop",
+          "pop",
+          "pop rap"
+        ]
+      },
+      "examples": [
+        ["dance pop",
+          "miami hip hop",
+          "pop",
+          "pop rap"
+        ]
+      ]
+    },
+    "href": {
+      "type": "string",
+      "default": "",
+      "title": "The href Schema",
+      "examples": [
+        "https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "default": "",
+      "title": "The id Schema",
+      "examples": [
+        "0TnOYISbd1XYRBk9myaseg"
+      ]
+    },
+    "images": {
+      "type": "array",
+      "default": [],
+      "title": "The images Schema",
+      "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": [
+          "height",
+          "url",
+          "width"
+        ],
+        "properties": {
+          "height": {
+            "type": "integer",
+            "title": "The height Schema",
+            "examples": [
+              640,
+              320,
+              160
+            ]
+          },
+          "url": {
+            "type": "string",
+            "title": "The url Schema",
+            "examples": [
+              "https://i.scdn.co/image/ab6761610000e5ebfc9d2abc85b6f4bef77f80ea",
+              "https://i.scdn.co/image/ab67616100005174fc9d2abc85b6f4bef77f80ea",
+              "https://i.scdn.co/image/ab6761610000f178fc9d2abc85b6f4bef77f80ea"
+            ]
+          },
+          "width": {
+            "type": "integer",
+            "title": "The width Schema",
+            "examples": [
+              640,
+              320,
+              160
+            ]
+          }
+        },
+        "examples": [{
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfc9d2abc85b6f4bef77f80ea",
+          "width": 640
+        },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174fc9d2abc85b6f4bef77f80ea",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178fc9d2abc85b6f4bef77f80ea",
+            "width": 160
+          }]
+      },
+      "examples": [
+        [{
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfc9d2abc85b6f4bef77f80ea",
+          "width": 640
+        },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174fc9d2abc85b6f4bef77f80ea",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178fc9d2abc85b6f4bef77f80ea",
+            "width": 160
+          }]
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "Pitbull"
+      ]
+    },
+    "popularity": {
+      "type": "integer",
+      "default": 0,
+      "title": "The popularity Schema",
+      "examples": [
+        85
+      ]
+    },
+    "type": {
+      "type": "string",
+      "default": "",
+      "title": "The type Schema",
+      "examples": [
+        "artist"
+      ]
+    },
+    "uri": {
+      "type": "string",
+      "default": "",
+      "title": "The uri Schema",
+      "examples": [
+        "spotify:artist:0TnOYISbd1XYRBk9myaseg"
+      ]
+    }
+  },
+  "examples": [{
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg"
+    },
+    "followers": {
+      "href": null,
+      "total": 9861743
+    },
+    "genres": [
+      "dance pop",
+      "miami hip hop",
+      "pop",
+      "pop rap"
+    ],
+    "href": "https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg",
+    "id": "0TnOYISbd1XYRBk9myaseg",
+    "images": [{
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab6761610000e5ebfc9d2abc85b6f4bef77f80ea",
+      "width": 640
+    },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174fc9d2abc85b6f4bef77f80ea",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178fc9d2abc85b6f4bef77f80ea",
+        "width": 160
+      }],
+    "name": "Pitbull",
+    "popularity": 85,
+    "type": "artist",
+    "uri": "spotify:artist:0TnOYISbd1XYRBk9myaseg"
+  }]
+}

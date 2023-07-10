@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured">
+
+    <listeners>
+        <listener class-name="com.spotify.oauth2.components.listeners.TestRetryAnalyzerListener"/>
+        <listener class-name="com.spotify.oauth2.components.listeners.ListenerClass"/>
+    </listeners>
+
+    <test verbose="4" name="Rest Tests">
+        <packages>
+            <package name="com.spotify.oauth2.tests.artist"/>
+            <package name="com.spotify.oauth2.tests.playlist"/>
+        </packages>
+    </test>
+</suite>
